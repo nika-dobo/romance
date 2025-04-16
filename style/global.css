@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 300;
+  color: #f8c8dc;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #2b1b2f;
+}
+body * {
+  font-size: 20px;
+}
+body header {
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background: #4d3055;
+}
+body header .profil {
+  display: flex;
+  justify-self: end;
+}
+body header .profil .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-size: 40px;
+}
+body .sec-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+body .sec-1 .box {
+  display: flex;
+  justify-content: space-around;
+}
+body .sec-1 .box .story {
+  border-radius: 10px;
+  width: 30%;
+  height: 150px;
+  background: #4d3055;
+  border: #1e1321 solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* SVG */
+  /* SVG animations */
+  /* Button animations */
+}
+body .sec-1 .box .story h1 {
+  font-size: 30px;
+}
+body .sec-1 .box .story .btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #f8c8dc;
+  --color-background: #c94f7c;
+  --color-outline: #ff145b80;
+  --color-shadow: #00000080;
+}
+body .sec-1 .box .story .btn-content {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 100px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+body .sec-1 .box .story .btn-content:hover,
+body .sec-1 .box .story .btn-content:focus {
+  transition: 0.5s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+body .sec-1 .box .story .btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+body .sec-1 .box .story .btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+body .sec-1 .box .story .icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+body .sec-1 .box .story #arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+body .sec-1 .box .story #arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+body .sec-1 .box .story .btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+body .sec-1 .box .story .btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+body .sec-1 .box .story .btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+@keyframes color_anim {
+  0% {
+    fill: f8c8dc;
+  }
+  50% {
+    fill: var(--color-background);
+  }
+  100% {
+    fill: f8c8dc;
+  }
+}
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+body footer {
+  margin-top: 75px;
+  width: 100%;
+  height: 200px;
+  background: #4d3055;
+}/*# sourceMappingURL=global.css.map */
