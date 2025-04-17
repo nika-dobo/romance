@@ -141,7 +141,7 @@ a {
 }
 
 body {
-  background: #2b1b2f;
+  background: linear-gradient(to top, #1a1a2e, #2e1a47);
 }
 body * {
   font-size: 20px;
@@ -152,7 +152,7 @@ body header {
   justify-content: space-around;
   align-items: center;
   height: 60px;
-  background: #4d3055;
+  background: linear-gradient(to top, #4d3055, #2e1a47);
 }
 body header .profil {
   display: flex;
@@ -180,7 +180,7 @@ body main .sec-1 .box .story {
   border-radius: 10px;
   width: 30%;
   height: 150px;
-  background: #4d3055;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
   border: #1e1321 solid 2px;
   display: flex;
   flex-direction: column;
@@ -306,7 +306,7 @@ body main .profile_info .profile_img button:hover {
 }
 body main .profile_info .info {
   border-radius: 15px;
-  background: #4d3055;
+  background: linear-gradient(#4d3055, #2e1a47, #4d3055);
   width: 800px;
   height: 300px;
   display: flex;
@@ -381,7 +381,7 @@ body main .acc_story {
   margin-top: 75px;
 }
 body main .acc_story .story {
-  background: #4d3055;
+  background: linear-gradient(#4d3055, #2e1a47, #4d3055);
   width: 80%;
   height: 300px;
   border-radius: 15px;
@@ -394,5 +394,5 @@ body footer {
   margin-top: 75px;
   width: 100%;
   height: 200px;
-  background: #4d3055;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
 }/*# sourceMappingURL=global.css.map */
