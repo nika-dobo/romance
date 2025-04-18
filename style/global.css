@@ -386,7 +386,11 @@ body main .profile_info .button::before {
   width: 100%;
   height: inherit;
   border-radius: inherit;
-  background: linear-gradient(82.3deg, rgb(150, 93, 233) 10.8%, rgb(99, 88, 238) 94.3%);
+  background: linear-gradient(
+    82.3deg,
+    rgb(150, 93, 233) 10.8%,
+    rgb(99, 88, 238) 94.3%
+  );
   transition: all 0.475s;
 }
 body main .acc_story {
@@ -409,4 +413,4 @@ body footer {
   width: 100%;
   height: 200px;
   background: linear-gradient(to bottom, #4d3055, #2e1a47);
-}/*# sourceMappingURL=global.css.map */
+} /*# sourceMappingURL=global.css.map */
