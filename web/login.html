@@ -30,7 +30,7 @@
             <a href="../index.html">Home</a>
 
             <div class="acc">
-                <a href="#">Log In</a>
+                <a href="./singup.html">Sing Up</a>
                 <a href="./profile.html" class="profil">
                     <span class="material-symbols-outlined" id="profil">
                         account_circle
@@ -41,19 +41,73 @@
         </header>
 
 
-        <main>
+        <main class="log">
+            <div class="registration">
+                <form class="login" action="/login" method="POST" enctype="multipart/form-data">
+
+                    <label for="firstName">firstname:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="lastName">lastname:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="nickname">nickname:</label>
+                    <input type="text" id="nickname" name="nickname" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone number:</label>
+                    <input type="number" id="phone" name="phone" required>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="1" max="120">
+
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="none">none</option <option value="georgia">Georgia</option>
+                        <option value="usa">USA</option>
+                        <option value="germany">Germany</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="password">password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="confirmPassword">Repeat password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
 
 
+
+                    <button class="button">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                        </svg>
+
+                        <div class="text">
+                            Log In
+                        </div>
+
+                    </button>
+
+                </form>
+            </div>
 
 
         </main>
 
 
         <footer>
+            <div>
+                <h1>nika dobo</h1>
+                <h1>luka keleptrishveli</h1>
+                <h1>giorgi chaduneli</h1>
+            </div>
 
-
-
-            <a href="https://nika-dobo.github.io/1234/" id="secret-link">click me</a>
+            <a href="https://nika-dobo.github.io/1234/" target="_blank" id="secret-link">click me</a>
         </footer>
     </div>
 </body>
