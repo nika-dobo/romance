@@ -290,6 +290,290 @@ body main .sec-1 .box .story .btn-content:hover #arrow-icon-two {
     outline-offset: 0;
   }
 }
+body main .sec-1 .box .info1 {
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info1 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info1 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info1 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info1 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info1-View {
+  display: inline;
+}
+body main .sec-1 .box .info1-hidden {
+  display: none;
+}
+body main .sec-1 .box .info2 {
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info2 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info2 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info2 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info2 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info2-View {
+  display: inline;
+}
+body main .sec-1 .box .info2-hidden {
+  display: none;
+}
+body main .sec-1 .box .info3 {
+  transform: translateY(-203px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info3 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info3 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info3 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info3 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info3-View {
+  display: inline;
+}
+body main .sec-1 .box .info3-hidden {
+  display: none;
+}
+body main .sec-1 .box .info4 {
+  transform: translateY(-203px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info4 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info4 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info4 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info4 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info4-View {
+  display: inline;
+}
+body main .sec-1 .box .info4-hidden {
+  display: none;
+}
+body main .sec-1 .box .info5 {
+  transform: translateY(-406px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info5 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info5 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info5 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info5 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info5-View {
+  display: inline;
+}
+body main .sec-1 .box .info5-hidden {
+  display: none;
+}
+body main .sec-1 .box .info6 {
+  transform: translateY(-406px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info6 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info6 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info6 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 40px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info6 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info6-View {
+  display: inline;
+}
+body main .sec-1 .box .info6-hidden {
+  display: none;
+}
+body main .sec-1 .box .info7 {
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info7 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info7 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info7 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 40px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info7 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info7-View {
+  display: inline;
+}
+body main .sec-1 .box .info7-hidden {
+  display: none;
+}
 body main .profile_info {
   display: flex;
   justify-content: space-around;
