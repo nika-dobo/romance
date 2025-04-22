@@ -558,7 +558,6 @@ body main .sec-1 .box .info7 .text h1 {
 body main .sec-1 .box .info7 button {
   width: 200px;
   height: 40px;
-  margin-top: 10px;
   background: #c94f7c;
   border-radius: 15px;
   transition: 0.5s;
@@ -572,6 +571,209 @@ body main .sec-1 .box .info7-View {
   display: inline;
 }
 body main .sec-1 .box .info7-hidden {
+  display: none;
+}
+body main .sec-1 .box .info8 {
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info8 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info8 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info8 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info8 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info8-View {
+  display: inline;
+}
+body main .sec-1 .box .info8-hidden {
+  display: none;
+}
+body main .sec-1 .box .info9 {
+  transform: translateY(-203px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info9 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info9 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info9 button {
+  width: 200px;
+  height: 40px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info9 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info9-View {
+  display: inline;
+}
+body main .sec-1 .box .info9-hidden {
+  display: none;
+}
+body main .sec-1 .box .info10 {
+  transform: translateY(-203px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info10 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info10 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info10 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info10 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info10-View {
+  display: inline;
+}
+body main .sec-1 .box .info10-hidden {
+  display: none;
+}
+body main .sec-1 .box .info11 {
+  transform: translateY(-406px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info11 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info11 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info11 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info11 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info11-View {
+  display: inline;
+}
+body main .sec-1 .box .info11-hidden {
+  display: none;
+}
+body main .sec-1 .box .info12 {
+  transform: translateY(-406px);
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 700px;
+  z-index: 2;
+  background: linear-gradient(to bottom, #4d3055, #2e1a47);
+  border-radius: 20px;
+  border: #1e1321 solid 2px;
+}
+body main .sec-1 .box .info12 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+body main .sec-1 .box .info12 .text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+body main .sec-1 .box .info12 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .sec-1 .box .info12 button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .sec-1 .box .info12-View {
+  display: inline;
+}
+body main .sec-1 .box .info12-hidden {
   display: none;
 }
 body main .profile_info {
@@ -687,29 +889,74 @@ body main .acc_story .story {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body main .acc_story .story h2 {
   cursor: pointer;
 }
-body .log {
+body main .acc_story .upload1 {
+  transform: translateY(-300px);
+  background: linear-gradient(#4d3055, #2e1a47, #4d3055);
+  display: none;
+  position: fixed;
+  height: 300px;
+  width: 700px;
+  border-radius: 15px;
+}
+body main .acc_story .upload1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+body main .acc_story .upload1 div h1 {
+  margin-top: 100px;
+}
+body main .acc_story .upload1 div button {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background: #c94f7c;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+body main .acc_story .upload1 div button:hover {
+  background: #e20a5a;
+  width: 210px;
+  height: 45px;
+}
+body main .acc_story .upload1-View {
+  display: inline;
+}
+body main .acc_story .upload1-hidden {
+  display: none;
+}
+
+.sing {
   display: flex;
   justify-content: center;
 }
-body .log .registration {
+.sing .join {
   background: linear-gradient(#4d3055, #2e1a47, #4d3055);
   width: 550px;
-  height: 820px;
+  height: 520px;
   border-radius: 20px;
 }
-body .log .registration .login {
+.sing .join .singup {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
 }
-body .log .registration .login label {
-  margin-top: 10px;
+.sing .join .singup h2 {
+  margin-bottom: 30px;
 }
-body .log .registration .login input {
+.sing .join .singup p {
+  padding-top: 40px;
+}
+.sing .join .singup p a {
+  color: #ff529a;
+}
+.sing .join .singup input {
   padding: 0px;
   width: 400px;
   height: 25px;
@@ -719,7 +966,67 @@ body .log .registration .login input {
   font-family: "Sour Gummy", sans-serif;
   font-weight: 300;
 }
-body .log .registration .login select {
+.sing .join .singup .button {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 12.5em;
+  height: 2.3em;
+  border: #2f2447 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+.sing .join .singup .button:hover {
+  background-color: #6a4179;
+  cursor: pointer;
+}
+.sing .join .singup .button svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  margin-left: 3em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+.sing .join .singup .button:hover svg {
+  transform: translateX(5px);
+}
+.sing .join .singup .text {
+  margin: 0 1.5em;
+  margin-right: 3em;
+}
+
+.log {
+  display: flex;
+  justify-content: center;
+}
+.log .registration {
+  background: linear-gradient(#4d3055, #2e1a47, #4d3055);
+  width: 550px;
+  height: 820px;
+  border-radius: 20px;
+}
+.log .registration .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.log .registration .login label {
+  margin-top: 10px;
+}
+.log .registration .login input {
+  padding: 0px;
+  width: 400px;
+  height: 25px;
+  border-radius: 10px;
+  background: #6a4179;
+  color: #f8c8dc;
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 300;
+}
+.log .registration .login select {
   width: 400px;
   border-radius: 10px;
   background: #6a4179;
@@ -727,7 +1034,7 @@ body .log .registration .login select {
   font-family: "Sour Gummy", sans-serif;
   font-weight: 300;
 }
-body .log .registration .login .button {
+.log .registration .login .button {
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0);
   width: 12.5em;
@@ -737,11 +1044,11 @@ body .log .registration .login .button {
   text-align: right;
   transition: all 0.6s ease;
 }
-body .log .registration .login .button:hover {
+.log .registration .login .button:hover {
   background-color: #6a4179;
   cursor: pointer;
 }
-body .log .registration .login .button svg {
+.log .registration .login .button svg {
   width: 1.6em;
   margin: -0.2em 0.8em 1em;
   margin-left: 3em;
@@ -749,31 +1056,32 @@ body .log .registration .login .button svg {
   display: flex;
   transition: all 0.6s ease;
 }
-body .log .registration .login .button:hover svg {
+.log .registration .login .button:hover svg {
   transform: translateX(5px);
 }
-body .log .registration .login .text {
+.log .registration .login .text {
   margin: 0 1.5em;
   margin-right: 3em;
 }
-body .log .registration a {
+.log .registration a {
   color: #b18a9a;
 }
-body footer {
+
+footer {
   margin-top: 75px;
   width: 100%;
   height: 200px;
   background: linear-gradient(to bottom, #4d3055, #2e1a47);
 }
-body footer div {
+footer div {
   display: flex;
   justify-content: space-around;
 }
-body footer h1 {
+footer h1 {
   font-size: 20px;
   margin-top: 95px;
 }
-body footer a {
+footer a {
   display: flex;
   justify-content: end;
   margin-top: 60px;
